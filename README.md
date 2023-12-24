@@ -109,4 +109,8 @@ sudo docker compose exec backend python manage.py load_data
 - [Документация к API базе данных](http://127.0.0.1:8000/redoc)
 - [Админ-панель базы данных](http://127.0.0.1:8000/admin)
 # Авторы
-Людмила Давлетова, Владимир Захаров, Мадина Муминова, Дмитрий Коломейцев, Константин Гашев
+[Людмила Давлетова](https://github.com/luydmila-davletova),
+[Владимир Захаров](https://github.com/zakharovvladimir),
+[Мадина Муминова](https://github.com/madina-zvezda),
+[Дмитрий Коломейцев](https://github.com/Certelen),
+[Константин Гашев](https://github.com/Gashev1989)
