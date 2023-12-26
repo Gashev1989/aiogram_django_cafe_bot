@@ -41,7 +41,7 @@ async def start():
     bot = Bot(token=settings.bots.bot_token)
 
     dp = Dispatcher(storage=MemoryStorage())
-    scheduler = AsyncIOScheduler(timezone='Europe/Moscow')
+    scheduler = AsyncIOScheduler(timezone='Asia/Yekaterinburg')
     scheduler.start()
     dp.update.middleware.register(SchedulerMiddleware(scheduler))
 
